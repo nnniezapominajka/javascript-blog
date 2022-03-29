@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,600|Sacramento|Source+Sans+Pro:300&subset=latin-ext');
 /* Variables */
 /* Global */
@@ -5,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   background: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   color: #444;
@@ -25,11 +26,10 @@ body {
   font-family:'Oswald', sans-serif;
   font-weight: 600;
 }
-
  .section-title span {
     text-transform: none;
     font-weight: 400;
-    color:#777777
+    color:#777777,
 }
 
 /* Layout */
