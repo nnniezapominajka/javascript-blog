@@ -204,7 +204,7 @@
     for (let tag in allTags) {
     //const tagLinkHTML = calculateTagClass(allTags[tag], tagParams);
     //console.log('tagLinkHTML:', tagLinkHTML);
-    /* [NEW] generate code of a link andd add it to allTagsHTML */
+    /* [NEW] generate code of a link and add it to allTagsHTML */
     //const tagLinkHTML = '<li><a class="' + calculateTagClass(allTags[tag], tagParams) + '" href="#tag-' + tag + '">' + tag + '</a>' + ' </li> ';
 
       //allTagsHTML += tagLinkHTML;
@@ -218,7 +218,7 @@
     }
     /* [NEW] END LOOP: for each tag in allTags: */
 
-    /* [NEW] add HTML for alTagsHTML to tagList */
+    /* [NEW] add HTML for allTagsHTML to tagList */
     //tagList.innerHTML = allTagsHTML;
     tagList.innerHTML = templates.tagCloudLink(allTagsData);
 
