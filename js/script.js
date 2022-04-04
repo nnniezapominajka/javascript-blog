@@ -64,12 +64,16 @@
     let html = '';
     //console.log('opt.articleSelector', opt.articleSelector);
     for (let article of articles) {
+
       /* get the article id */
       const articleId = article.getAttribute('id');
       //console.log('articleId', articleId);
+
       /* find the title element */
       const articleTitle = article.querySelector(opt.TitleSelector).innerHTML;
+
       /* get the title from the title element */
+
       /* create HTML of the link */
       //const linkHTML = '<li><a href="#' + articleId + '"><span>' + articleTitle + '</span></a></li>';
       const linkHTMLData = {
